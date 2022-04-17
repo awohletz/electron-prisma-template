@@ -24,3 +24,7 @@ All the features from secure-electron-template plus:
 - tRPC for communication between the renderer and main processes.
 - Prisma for database access.
 
+## TODO
+- Verify the packaging is working with the given electron-builder config files.
+- Auto updating.
+- Demonstrate communication from the main to the renderer process.
