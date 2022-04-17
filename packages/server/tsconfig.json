@@ -1,0 +1,26 @@
+{
+  "include": [
+    "app/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "lib": [
+      "es2015",
+      "es2017",
+      "es2019"
+    ],
+    "outDir": "./dist",
+    "rootDir": "./app",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "inlineSources": false,
+    "sourceMap": false,
+    "removeComments": true,
+    "allowJs": true
+  }
+}
