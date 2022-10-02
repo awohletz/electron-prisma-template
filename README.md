@@ -4,16 +4,24 @@ Use [tRPC](https://trpc.io/) and [Prisma](https://www.prisma.io/) with Electron.
 ## How to get started
 To get started, clone the repository by clicking the ![Use this template](https://github.com/awohletz/electron-prisma-template/blob/master/packages/server/docs/imgs/usethistemplate.png "Use this template") button, or through the command line (`git clone https://github.com/awohletz/electron-prisma-template.git`). 
 
-Once cloned, install the dependencies for the repo by running the following commands (you do _not_ have to run the first command if your command line is already inside the newly cloned respository):
+Once cloned, create a `.env` file for Prisma. E.g.:
+```
+DATABASE_URL="file:./app.db"
+```
+
+Then run these commands to install dependencies and start the app in hot-reloading development mode:
 
 ```
 cd electron-prisma-template
 npm i
 cd packages/client
 npm i
-npm start
+npm run build
 cd ../server
 npm i
+cd ../client
+npm start
+cd ../server
 npm run dev
 ```
 
