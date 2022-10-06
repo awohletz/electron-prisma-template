@@ -1,4 +1,12 @@
-# electron-prisma-template
+# DEPRECATED!
+Please use https://github.com/awohletz/electron-prisma-trpc-example instead. The new repo is a sleek, minimal example of using Prisma and tRPC with updated dependences (Electron 21, Prisma 4, tRPC 10) and simplified techniques.
+
+---
+---
+---
+
+
+## electron-prisma-template
 Use [tRPC](https://trpc.io/) and [Prisma](https://www.prisma.io/) with Electron. Forked from [secure-electron-template](https://github.com/reZach/secure-electron-template).
 
 ## How to get started
